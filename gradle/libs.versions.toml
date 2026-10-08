@@ -1,27 +1,27 @@
 [versions]
-protobuf = "4.30.2"
-coroutine = "1.10.2"
-kotlin = "2.1.20"
-okhttp = "5.3.2"
+protobuf = "4.36.2"
+coroutine = "1.11.0"
+kotlin = "2.4.20"
+okhttp = "5.5.0"
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-agp-app = { id = "com.android.application", version = "8.9.1" }
-protobuf = { id = "com.google.protobuf", version = "0.9.5" }
+agp-app = { id = "com.android.application", version = "9.4.1" }
+protobuf = { id = "com.google.protobuf", version = "0.10.0" }
 lsplugin-jgit = { id = "org.lsposed.lsplugin.jgit", version = "1.1" }
 lsplugin-resopt = { id = "org.lsposed.lsplugin.resopt", version = "1.6" }
-lsplugin-apksign = { id = "org.lsposed.lsplugin.apksign", version = "1.4" }
+lsplugin-apksign = { id = "org.lsposed.lsplugin.apksign", version = "1.5" }
 lsplugin-apktransform = { id = "org.lsposed.lsplugin.apktransform", version = "1.2" }
-lsplugin-cmaker = { id = "org.lsposed.lsplugin.cmaker", version = "1.2" }
+lsplugin-cmaker = { id = "org.lsposed.lsplugin.cmaker", version = "1.5" }
 
 [libraries]
 xposed = { module = "de.robv.android.xposed:api", version = "82" }
-cxx = { module = "org.lsposed.libcxx:libcxx", version = "29.0.14206865" }
+cxx = { module = "org.lsposed.libcxx:libcxx", version = "30.0.16248370" }
 protobuf-kotlin = { module = "com.google.protobuf:protobuf-kotlin-lite", version.ref = "protobuf" }
 protobuf-java = { module = "com.google.protobuf:protobuf-javalite", version.ref = "protobuf" }
 protobuf-protoc = { module = "com.google.protobuf:protoc", version.ref = "protobuf" }
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 kotlin-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutine" }
 kotlin-coroutines-jdk = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8", version.ref = "coroutine" }
-androidx-documentfile = { module = "androidx.documentfile:documentfile", version = "1.0.1" }
+androidx-documentfile = { module = "androidx.documentfile:documentfile", version = "1.1.0" }
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
